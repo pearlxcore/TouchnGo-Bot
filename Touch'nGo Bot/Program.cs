@@ -15,7 +15,7 @@ namespace Touch_nGo_Bot
 
         static async Task Main(string[] args)
         {
-            //pandai2 le buat looping kalau nak
+            //pandai2 le buat looping kalau nak monitor
             var result = await CheckItemStatus();
             Console.WriteLine(result);
             Console.ReadLine();
