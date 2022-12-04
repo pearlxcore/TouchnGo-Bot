@@ -62,7 +62,7 @@ namespace Touch_nGo_Bot
                 msgInfo = "Response is null";
             else if (!json.success)
                 msgInfo = "Request failed";
-            else if (!json.module.success && json.module.msgInfo.Contains("It is out of stock"))
+            else if (!json.module.success && json.module.msgInfo.Contains("Item out of stock"))
                 msgInfo = "Out of stock";
             else
                 msgInfo = "Item in stock";
