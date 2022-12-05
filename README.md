@@ -1,3 +1,3 @@
-# Touch-n-Go-Bot
+# TouchnGo-Bot
 
 Monitor TnG Nfc stock (Lazada)
